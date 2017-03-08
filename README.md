@@ -60,7 +60,7 @@ const task = {
   store: {
     store_key: 'path.to.object.or.value'
   },
-  callback(response) => {
+  callback(response) {
     // Function that does something with the API response
   }
 }
