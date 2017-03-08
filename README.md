@@ -119,7 +119,7 @@ const apiTester = new ApiTester({
   base_url: 'http://sample-app.herokuapp.com/api/v2/'
 })
 
-const adminBlockingFunctionality = ApiTester.TaskGroup('ADMIN_BLOCKING_FUNCTIONALITY')
+const adminBlockingFunctionality = new ApiTester.TaskGroup()
 
 adminBlockingFunctionality.addTasks([
   clientTasks.createClient,
